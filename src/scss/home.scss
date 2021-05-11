@@ -1,0 +1,77 @@
+$primary : #dc3545e3;
+$secondary : #bd2130 ;
+
+
+nav{
+    width: 84.6%;
+    position: relative;
+}
+.item-img{
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: rgba($color: #000000, $alpha: 0.4) 0px 4px 10px;
+}
+
+.home{
+    margin-top: -24px;
+    padding: 40px 20px;
+    background-color: white;
+    min-height: 100vh;
+    .btn{
+        background-color: $secondary;
+        border: none;
+        color: white;
+        text-decoration: none;
+        box-shadow: rgba($color: #000000, $alpha: 0.4) 0px 4px 10px;
+    }
+    .Items{
+        margin-top: 20px;
+        .card{
+            margin-bottom: 10px;
+            max-width: 350px;
+            margin: 10px;
+            box-shadow: rgba($color: #000000, $alpha: 0.4) 0px 4px 10px;
+            .card-body{
+                display: flex;
+                img{
+                    flex:1;
+                }
+                .infos{
+                    flex:1;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+// login and register
+
+.login-form ,
+.register-form{
+    margin-top: -50px;
+    padding: 20px;
+    color: $secondary;
+    background-color: white;
+    min-height: 100vh;
+    input{
+        border: none;
+        background-color: transparent;
+        border-bottom: $primary 1px solid;
+        border-radius: 0px;
+    }
+    input:focus {
+        box-shadow: none;
+        border-bottom: $primary 1px solid;
+    }
+    label{
+        margin: 20px 0px;
+    }
+    .btn{
+        background-color: $primary;
+        color: white;
+    }
+}
+
+

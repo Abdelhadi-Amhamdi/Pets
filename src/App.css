@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: white !important;
+    z-index: 2;
+}
+
+img {
+    position: absolute;
+    top: 20vh;
+    left: 10%;
+    width: 80%;
+    height: 80vh;
+}
+
+
+.berger div {
+    background-color: red;
+    width: 50px;
+    height: 6px;
+}
+.berger div::before {
+    background-color: red;
+    width: 50px;
+    height: 6px;
+}
+
